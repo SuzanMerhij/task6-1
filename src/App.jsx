@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Calculator from './components/Calculator/Calculator';
-
+import StepperLogin from './Components/StepperLogin/StepperLogin';
 
 function App() {
   return (
     <div className="App">
-      <Calculator/>
+      
+      <StepperLogin />
 
     </div>
   );
 }
+
 export default App;

@@ -1,0 +1,14 @@
+.nav-icon{
+    display: flex;
+    gap: 25px;
+}
+.nav-icon i.bi{
+    font-size: 22px;
+    box-shadow: 0 0 5px RED;
+}
+
+@media screen and (max-width:300px) {
+    .nav-icon i.bi{
+       display: none;
+    }
+}

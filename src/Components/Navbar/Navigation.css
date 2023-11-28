@@ -1,0 +1,91 @@
+/********************NAVBAR*********************/
+nav {
+    background-color: #ffffffe3;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+.logo i{
+    font-size: 30px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo img {
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/*****************SIDEBAR*******************/
+.sidebar-container {
+    background-color:#ffffffe3;
+    color: black;
+    width: 250px;
+    height:100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+    margin-top: 60px;
+}
+
+.nav-option {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 20px;
+}
+.nav-option .h4{
+    text-decoration: none;
+}
+
+.nav-option:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.close_on_click{
+    background-color: black;
+}
+/********************* MEDIA QUERY****************************/
+
+
+/*********************** Collaps Sidebar with general navbar*************************/
+@media screen and (min-width:200px) {
+
+    .hiddenSidebar {
+        width: 0;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .blockSidebar {
+        width: 160px;
+    }
+
+    .blockSidebar .nav-option .h4 {
+        font-size: 15px;
+        margin: 13px 2px;
+    }
+    .logo img{
+        width: 75px;
+        margin-top: 5px;
+    }
+    .logo i {
+        font-size: 25px;
+    }
+
+}
+
+

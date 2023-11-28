@@ -1,0 +1,32 @@
+export const Data = [
+  {
+    img:require("./assets/Images/p10.jpg"),
+    title:'iphone6',
+    price:"300$"
+  },
+  {
+    img:require("./assets/Images/p15.jpg"),
+    title:'iphone7',
+    price:"300$"
+  },
+  {
+    img:require("./assets/Images/p9.jpg"),
+    title:'iphone12',
+    price:"300$"
+  },
+  { 
+    img:require("./assets/Images/p20.jpg"),
+    title:'iphone4',
+    price:"300$"
+  },
+  {
+    img:require("./assets/Images/p8.jpg"),
+    title:'iphone9',
+    price:"300$"
+  },
+  {
+    img:require("./assets/Images/p23.jpg"),
+    title:'phone',
+    price:"300$"
+  }
+]
